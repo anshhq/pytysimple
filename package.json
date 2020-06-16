@@ -1,0 +1,23 @@
+{
+  "name": "ts-rest-apis",
+  "version": "1.0.0",
+  "description": "Simple CRUD REST APIs in TypeScript",
+  "main": "src/index.ts",
+  "repository": "https://github.com/anshhq/pytysimple.git",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "anshhq",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "typescript": "^3.9.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  }
+}
